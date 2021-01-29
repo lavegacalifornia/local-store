@@ -1,7 +1,7 @@
-export default function Hero(){
+export default function HeroSection(){
     return (
         <div>
-            <img className="m-5 "/>
+            <img className=""/>
             <h3>Restaurant's Title</h3>
             <p>Dscription</p>
         </div>
