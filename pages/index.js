@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import InfoHeroSection from '../components/InfoHeroSection'
+import HeroSection from '../components/HeroSection'
 import ProductsCards from '../components/ProductsCards'
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <header>
-          <InfoHeroSection />
+          <HeroSection />
         </header>
         <main className="">
           <div>

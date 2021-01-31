@@ -1,7 +1,7 @@
 
-export default function CardProduct({ title, description, price, source }) {
+export default function CardProduct({ title, description, price }) {
     return (
-        <div className="grid grid-cols-2 sm:flex sm:flex-col rounded-2xl bg-white sm:w-max sm:p-6 shadow-md sm:m-3 p-2">
+        <div className="grid grid-cols-2 space-y-2 sm:flex sm:flex-col rounded-2xl bg-white sm:w-max sm:p-6 shadow-md sm:m-3 p-2">
             <img src="../png/food-example.jpg" alt={title} className="w-40 rounded-2xl" />
             <div className="p-2 w-full">
                 <div className="flex flex-col">

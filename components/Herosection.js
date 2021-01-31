@@ -6,7 +6,7 @@ export default function HeroSection({ resName, resDescription, resAdress, time})
             <img src="../png/example-unsplash.jpg" alt="image of the restaurant" className="h-30 w-full object-contain" />
             <div className="flex flex-wrap sm:mx-16">
                 <img src="../png/logo.jpg" alt="restaurant's logo" className="w-24 h-24 sm:w-40 sm:h-40 rounded-full border-2 border-white relative bottom-6 left-4 " />
-                <div className="order-3 mx-3 mb-3 sm:ml-12 sm:mt-4">
+                <div className="order-3 mx-3 mb-3 sm:ml-12  sm:mt-4">
                     <h1 className="text-2xl">{resName}</h1>
                     <p className="text-gray-500 my-3">{resDescription}</p>
                     <div className="flex flex-row">
