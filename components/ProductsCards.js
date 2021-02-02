@@ -43,6 +43,11 @@ export default function ProductsCards(){
             description={"Product description"}
             price={"$ 500"}
             />
+            <ProductCard 
+            title={"Product title"} 
+            description={"Product description"}
+            price={"$ 500"}
+            />
         </div>
     )
 }

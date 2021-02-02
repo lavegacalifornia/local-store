@@ -5,7 +5,7 @@ import ProductsCards from '../components/ProductsCards'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container bg-indigo-50">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
